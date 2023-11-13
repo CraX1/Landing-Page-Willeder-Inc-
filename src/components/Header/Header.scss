@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 4rem;
+  padding: 0.875rem 5rem;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.85);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+  .navigators {
+    display: flex;
+    align-items: center;
+    font-family: Noto Sans;
+    margin: 0 auto;
+    gap: 7.5rem;
+    font-weight: 600;
+    letter-spacing: 0.3rem;
+    line-height: 160%;
+    box-shadow: 0px 0px 4px 0px #fff;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    font-family: Revalia;
+    text-align: center;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.6rem;
+    line-height: 160%;
+    .logo-svg {
+      flex-shrink: 0;
+    }
+  }
+}
