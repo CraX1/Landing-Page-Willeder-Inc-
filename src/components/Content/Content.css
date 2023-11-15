@@ -1,0 +1,63 @@
+.content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 12.5rem 0rem;
+  font-family: Noto Sans;
+  font-weight: 600;
+  line-height: 160%;
+  text-align: center;
+  color: #fff;
+  gap: 4rem;
+  position: relative; }
+  .content-container .content-bar {
+    background: #6a45ff;
+    z-index: -1;
+    position: absolute;
+    width: 17.5rem;
+    height: 100%; }
+  .content-container .main-title {
+    font-size: 2.5rem;
+    letter-spacing: 0.75rem;
+    padding-left: 0.75rem; }
+  .content-container .sub-title {
+    font-size: 1.5rem;
+    letter-spacing: 0.45rem;
+    padding-left: 0.45rem; }
+  .content-container .images-with-description {
+    height: 37.5rem;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto; }
+    .content-container .images-with-description .image-description-item {
+      position: relative; }
+      .content-container .images-with-description .image-description-item:before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%);
+        z-index: 1; }
+      .content-container .images-with-description .image-description-item img {
+        height: 100%;
+        object-fit: cover;
+        width: 100%; }
+      .content-container .images-with-description .image-description-item div {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 2; }
+      .content-container .images-with-description .image-description-item .item-number {
+        font-size: 1.5rem;
+        letter-spacing: 0.45rem; }
+      .content-container .images-with-description .image-description-item .item-title {
+        font-size: 2rem;
+        line-height: 160%;
+        letter-spacing: 0.6rem; }
+      .content-container .images-with-description .image-description-item .item-description {
+        font-weight: 400;
+        font-size: 1.25rem;
+        line-height: 150%;
+        letter-spacing: 0.0625rem; }
