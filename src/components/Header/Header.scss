@@ -18,7 +18,7 @@
     font-weight: 600;
     letter-spacing: 0.3rem;
     line-height: 160%;
-    box-shadow: 0px 0px 4px 0px #fff;
+    // box-shadow: 0px 0px 4px 0px #fff;
   }
 
   .logo {
@@ -34,5 +34,8 @@
     .logo-svg {
       flex-shrink: 0;
     }
+  }
+  .logo-text {
+    padding-left: 0.5rem;
   }
 }

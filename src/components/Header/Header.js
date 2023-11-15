@@ -6,7 +6,7 @@ const Header = () => {
     <div className="header">
       <div className="logo">
         <Logo width="2.75rem" height="2.75rem" />
-        <span>LOGO</span>
+        <span className="logo-text">LOGO</span>
       </div>
 
       <div className="navigators">

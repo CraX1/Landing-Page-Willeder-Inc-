@@ -16,8 +16,7 @@
     gap: 7.5rem;
     font-weight: 600;
     letter-spacing: 0.3rem;
-    line-height: 160%;
-    box-shadow: 0px 0px 4px 0px #fff; }
+    line-height: 160%; }
   .header .logo {
     display: flex;
     align-items: center;
@@ -30,3 +29,5 @@
     line-height: 160%; }
     .header .logo .logo-svg {
       flex-shrink: 0; }
+  .header .logo-text {
+    padding-left: 0.5rem; }
