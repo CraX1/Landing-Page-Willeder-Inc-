@@ -1,5 +1,6 @@
 import React from "react";
 import "../components/Header/Header.scss";
+import "../components/Carousel/Carousel.scss";
 
 const logo = ({ width, height }) => {
   return (

@@ -146,3 +146,50 @@
     }
   }
 }
+
+@media screen and (max-width: 768px) {
+  .content-container {
+    .content-bar-text {
+      padding-top: 5rem;
+      z-index: 2;
+    }
+    .content-bar {
+      background: rgba(106, 69, 255, 0.24);
+      width: 2.5rem;
+    }
+    .main-title {
+      color: #6a45ff;
+      font-size: 1.5rem;
+      letter-spacing: 0.45rem;
+    }
+    .sub-title {
+      color: #000;
+      font-size: 1.25rem;
+      letter-spacing: 0.375rem;
+    }
+
+    .images-with-description {
+      grid-template-columns: 1fr;
+      gap: 1rem;
+      padding: 2rem;
+      margin-bottom: 5rem;
+
+      .image-description-item {
+        .item-number {
+          display: none;
+        }
+        .item-title {
+          font-size: 1.25rem;
+          letter-spacing: 0.375rem;
+        }
+        .item-description {
+          font-size: 0.875rem;
+          line-height: 150%;
+          letter-spacing: 0.04375rem;
+        }
+      }
+    }
+    .bottom-content {
+    }
+  }
+}

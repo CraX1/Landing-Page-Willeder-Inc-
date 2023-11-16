@@ -1,4 +1,5 @@
 import React from "react";
+import "../components/Carousel/Carousel.scss";
 
 const Arrow = ({ fill, color }) => {
   return (
@@ -6,6 +7,7 @@ const Arrow = ({ fill, color }) => {
       xmlns="http://www.w3.org/2000/svg"
       width="52"
       height="53"
+      className="arrow-svg"
       viewBox="0 0 52 53"
       fill={fill || "none"}
     >
@@ -30,6 +32,7 @@ const Arrow = ({ fill, color }) => {
             height="52"
             fill="white"
             transform="translate(52 0.5) rotate(90)"
+            className="vector-transform"
           />
         </clipPath>
       </defs>

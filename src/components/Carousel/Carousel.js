@@ -51,7 +51,7 @@ const Carousel = () => {
 
       <div className="bottom-body">
         <div className="logo-body">
-          <Logo width="9rem" height="9rem" />
+          <Logo />
           <span>LOGO</span>
         </div>
         <div className="text-lorem">

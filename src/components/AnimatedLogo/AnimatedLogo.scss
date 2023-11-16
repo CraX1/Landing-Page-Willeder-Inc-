@@ -64,3 +64,43 @@
     }
   }
 }
+@media screen and (max-width: 768px) {
+  .wrapper {
+    padding: 5rem 0rem;
+    .logo {
+      width: 6.25rem;
+      height: 6.25rem;
+      .first {
+        top: 0;
+        left: 0;
+        border-left: 3.125rem solid transparent;
+        border-top: 3.125rem solid #8bff54;
+        border-right: 3.125rem solid transparent;
+      }
+
+      .second {
+        top: 0;
+        right: 0;
+        border-top: 3.125rem solid transparent;
+        border-right: 3.125rem solid #e9ff60;
+        border-bottom: 3.125rem solid transparent;
+      }
+
+      .third {
+        bottom: 0;
+        right: 0;
+        border-left: 3.125rem solid transparent;
+        border-bottom: 3.125rem solid #ff5252;
+        border-right: 3.125rem solid transparent;
+      }
+
+      .fourth {
+        bottom: 0;
+        left: 0;
+        border-top: 3.125rem solid transparent;
+        border-left: 3.125rem solid #6587ff;
+        border-bottom: 3.125rem solid transparent;
+      }
+    }
+  }
+}

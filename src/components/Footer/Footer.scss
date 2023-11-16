@@ -41,3 +41,31 @@
     letter-spacing: 0.0375rem;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .footer {
+    padding: 4rem 0rem;
+    gap: 2.5rem;
+
+    .pagination {
+      flex-direction: column;
+      align-items: center;
+      letter-spacing: 0.3rem;
+      gap: 1.5rem;
+    }
+    .bottom-footer {
+      gap: 1rem;
+    }
+    .horizontal-bar {
+      width: 18.75rem;
+      height: 0.125rem;
+      align-self: center;
+    }
+    .icons {
+      gap: 1.5rem;
+    }
+    .icon-svg {
+      width: 2.5rem;
+    }
+  }
+}
