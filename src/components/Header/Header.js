@@ -1,11 +1,12 @@
 import React from "react";
 import "./Header.scss";
 import Logo from "../../assets/Logo";
+import MenuIcon from "../../assets/MenuIcon";
 const Header = () => {
   return (
     <div className="header">
       <div className="logo">
-        <Logo width="2.75rem" height="2.75rem" />
+        <Logo />
         <span className="logo-text">LOGO</span>
       </div>
 
@@ -13,6 +14,9 @@ const Header = () => {
         <p>Home</p>
         <p>Page 1</p>
         <p>Page 2</p>
+      </div>
+      <div className="menu">
+        <MenuIcon />
       </div>
     </div>
   );

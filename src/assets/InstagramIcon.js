@@ -1,4 +1,5 @@
 import React from "react";
+import "../components/Footer/Footer.scss";
 
 const InstagramIcon = () => {
   return (
@@ -8,6 +9,7 @@ const InstagramIcon = () => {
       height="48"
       viewBox="0 0 48 48"
       fill="none"
+      className="icon-svg"
     >
       <path
         fill-rule="evenodd"

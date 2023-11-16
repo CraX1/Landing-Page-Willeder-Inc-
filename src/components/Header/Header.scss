@@ -8,6 +8,7 @@
   align-items: center;
   background: rgba(255, 255, 255, 0.85);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  z-index: 1;
 
   .navigators {
     display: flex;
@@ -18,9 +19,10 @@
     font-weight: 600;
     letter-spacing: 0.3rem;
     line-height: 160%;
-    // box-shadow: 0px 0px 4px 0px #fff;
   }
-
+  .menu {
+    display: none;
+  }
   .logo {
     display: flex;
     align-items: center;
@@ -37,5 +39,30 @@
   }
   .logo-text {
     padding-left: 0.5rem;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .header {
+    .navigators {
+      display: none;
+    }
+    .menu {
+      display: flex;
+      align-items: center;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    padding: 0.625rem 1rem;
+    height: 3rem;
+    .logo {
+      font-size: 1.25rem;
+    }
+    .logo-svg {
+      width: 1.84513rem;
+      height: 1.84325rem;
+    }
   }
 }
