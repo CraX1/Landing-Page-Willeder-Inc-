@@ -19,43 +19,45 @@ const Content = () => {
         <div className="image-description-item">
           <img src={Image1} alt="desc" srcset="" />
           <div className="description">
-            <p className="item-number">01</p>
-            <p className="item-title">Lorem ipsum dolor sit</p>
-            <p className="item-description">
+            <span className="item-number">01</span>
+            <span className="item-title">Lorem ipsum dolor sit</span>
+            <span className="item-description">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit
-            </p>
+            </span>
           </div>
         </div>
         <div className="image-description-item">
           <img src={Image2} alt="" srcset="" />
           <div className="description">
-            <p className="item-number">02</p>
-            <p className="item-title">Lorem ipsum dolor sit</p>
-            <p className="item-description">
+            <span className="item-number">02</span>
+            <span className="item-title">Lorem ipsum dolor sit</span>
+            <span className="item-description">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit
-            </p>
+            </span>
           </div>
         </div>
         <div className="image-description-item">
           <img src={Image3} alt="" srcset="" />
           <div>
-            <p className="item-number">03</p>
-            <p className="item-title">Lorem ipsum dolor sit</p>
-            <p className="item-description">
+            <span className="item-number">03</span>
+            <span className="item-title">Lorem ipsum dolor sit</span>
+            <span className="item-description">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit
-            </p>
+            </span>
           </div>
         </div>
       </div>
 
       {/* bottom */}
       <div className="bottom-content">
+        <p className="content-title content-title-seperate">Lorem ipsum</p>
+
         <div className="overlay-image">
           <img src={Image4} alt="" srcset="" />
         </div>
 
         <div className="content">
-          <p className="content-title">Lorem ipsum</p>
+          <p className="content-title content-title-combined">Lorem ipsum</p>
           <p className="content-description">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim

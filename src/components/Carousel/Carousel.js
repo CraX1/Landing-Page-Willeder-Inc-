@@ -55,7 +55,7 @@ const Carousel = () => {
           <span>LOGO</span>
         </div>
         <div className="text-lorem">
-          <p className="blue-title">Lorem ipsum dolor sit amet </p>
+          <p className="title">Lorem ipsum dolor sit amet </p>
           <p className="normal-text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.

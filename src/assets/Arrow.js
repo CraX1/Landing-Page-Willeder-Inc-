@@ -1,5 +1,6 @@
 import React from "react";
 import "../components/Carousel/Carousel.scss";
+import "../components/Content/Content.scss";
 
 const Arrow = ({ fill, color }) => {
   return (
