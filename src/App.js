@@ -3,6 +3,7 @@ import Header from "./components/Header/Header";
 import Carousel from "./components/Carousel/Carousel";
 import Content from "./components/Content/Content";
 import AnimatedLogo from "./components/AnimatedLogo/AnimatedLogo";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -14,6 +15,8 @@ function App() {
       <Content />
 
       <AnimatedLogo />
+
+      <Footer />
     </div>
   );
 }
