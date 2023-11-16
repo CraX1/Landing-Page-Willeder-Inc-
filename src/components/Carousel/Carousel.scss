@@ -17,17 +17,28 @@
   .arrows {
     position: absolute;
     top: 50%;
+    opacity: 0.3;
     transform: translateY(-50%);
+    background: none;
+    border: none;
     border: none;
     cursor: pointer;
     font-size: 24px;
 
     &.left-arrow {
       left: 10px;
+      transform: rotate(180deg);
     }
 
     &.right-arrow {
       right: 10px;
+    }
+
+    &.left-arrow:hover {
+      opacity: 1;
+    }
+    &.right-arrow:hover {
+      opacity: 1;
     }
   }
 

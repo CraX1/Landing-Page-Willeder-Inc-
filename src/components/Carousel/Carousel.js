@@ -5,6 +5,7 @@ import HeroImage2 from "../../assets/Images/hero-e-2.png";
 import HeroImage3 from "../../assets/Images/hero-e-3.png";
 import Logo from "../../assets/Logo";
 import Vector from "../../assets/Vector";
+import Arrow from "../../assets/Arrow";
 const Carousel = () => {
   const images = [HeroImage, HeroImage2, HeroImage3];
 
@@ -39,13 +40,14 @@ const Carousel = () => {
           lightgray 50% / cover no-repeat`,
         }}
       />
-
-      <button className="arrows left-arrow" onClick={prevImage}>
-        left
-      </button>
-      <button className="arrows right-arrow" onClick={nextImage}>
-        right
-      </button>
+      <div>
+        <button className="arrows left-arrow" onClick={prevImage}>
+          <Arrow fill={"#dce1e6"} color={"#000"} />
+        </button>
+        <button className="arrows right-arrow" onClick={nextImage}>
+          <Arrow fill={"#dce1e6"} color={"#000"} />
+        </button>
+      </div>
 
       <div className="bottom-body">
         <div className="logo-body">
