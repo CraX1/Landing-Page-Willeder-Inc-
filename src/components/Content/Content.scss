@@ -3,21 +3,23 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 12.5rem 0rem;
   font-family: Noto Sans;
   font-weight: 600;
   line-height: 160%;
   text-align: center;
   color: #fff;
-  gap: 4rem;
   position: relative;
 
   .content-bar {
     background: #6a45ff;
-    z-index: -1;
+    z-index: 1;
     position: absolute;
     width: 17.5rem;
     height: 100%;
+  }
+  .content-bar-text {
+    padding-top: 12.5rem;
+    z-index: 2;
   }
 
   .main-title {
@@ -31,10 +33,13 @@
     padding-left: 0.45rem;
   }
   .images-with-description {
+    margin-top: 4rem;
+    margin-bottom: 12.5rem;
     height: 37.5rem;
     width: 100%;
     display: grid;
     grid-template-columns: auto auto auto;
+    z-index: 2;
     .image-description-item {
       position: relative;
       &:before {
@@ -75,6 +80,68 @@
         font-size: 1.25rem;
         line-height: 150%;
         letter-spacing: 0.0625rem;
+      }
+    }
+  }
+
+  .bottom-content {
+    position: relative;
+    padding-top: 25rem;
+    padding-bottom: 25rem;
+    width: 100%;
+    background: #dce1e6;
+    text-align: left;
+    .overlay-image {
+      z-index: 2;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-85%, -50%);
+    }
+    img {
+      height: 27.5rem;
+      object-fit: cover;
+    }
+    .content {
+      z-index: 2;
+
+      width: 25%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(50%, -50%);
+    }
+    .content-title {
+      color: #000;
+      font-size: 2rem;
+      font-weight: 600;
+      line-height: 160%;
+      letter-spacing: 0.6rem;
+      border-bottom: 8px solid #6a45ff;
+    }
+    .content-description {
+      color: rgba(0, 0, 0, 0.8);
+      font-size: 1rem;
+      font-weight: 400;
+      line-height: 150%;
+      letter-spacing: 0.05rem;
+    }
+    .content-with-button {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+
+      p {
+        color: #000;
+        font-size: 1rem;
+        font-weight: 600;
+        line-height: 160%;
+        letter-spacing: 0.3rem;
+      }
+      button {
+        display: flex;
+        background: none;
+        border: none;
       }
     }
   }
