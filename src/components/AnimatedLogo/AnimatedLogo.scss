@@ -4,15 +4,19 @@
   text-align: center;
   align-items: center;
   padding: 12.5rem 0rem;
+
   .logo {
     width: 9.375rem;
     height: 9.375rem;
     position: relative;
+    animation: rotateScale 3s ease-in-out infinite;
+
     div {
       position: absolute;
       width: 50%;
       height: 50%;
     }
+
     .first {
       top: 0;
       left: 0;
@@ -20,6 +24,7 @@
       border-top: 4.6875rem solid #8bff54;
       border-right: 4.6875rem solid transparent;
     }
+
     .second {
       top: 0;
       right: 0;
@@ -27,6 +32,7 @@
       border-right: 4.6875rem solid #e9ff60;
       border-bottom: 4.6875rem solid transparent;
     }
+
     .third {
       bottom: 0;
       right: 0;
@@ -34,12 +40,27 @@
       border-bottom: 4.6875rem solid #ff5252;
       border-right: 4.6875rem solid transparent;
     }
+
     .fourth {
       bottom: 0;
       left: 0;
       border-top: 4.6875rem solid transparent;
       border-left: 4.6875rem solid #6587ff;
       border-bottom: 4.6875rem solid transparent;
+    }
+  }
+
+  @keyframes rotateScale {
+    0% {
+      transform: rotate(0deg) scale(1);
+    }
+
+    50% {
+      transform: rotate(360deg) scale(1.5);
+    }
+
+    100% {
+      transform: rotate(0deg) scale(1);
     }
   }
 }
